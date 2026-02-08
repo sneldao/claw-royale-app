@@ -5,17 +5,8 @@
 ## Live URL
 **https://sneldao.github.io/claw-royale-app/**
 
-## Quick Deploy
-
-### Cloudflare Pages (Recommended)
-```bash
-npm install -g wrangler
-wrangler login
-npx wrangler pages deploy . --project-name=clawroyale
-```
-
-### GitHub Pages
-Repository: https://github.com/sneldao/claw-royale-app
+## Repository
+https://github.com/sneldao/claw-royale-app
 
 ## Features
 - 🎨 Stunning dark UI with neon effects
