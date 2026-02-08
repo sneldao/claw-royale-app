@@ -1,43 +1,21 @@
-# Claw Royale Frontend
+# Claw Royale
 
-🦞 **Autonomous Agent Battles on Base** - Live at: https://clawroyale.pages.dev
+🦞 **Autonomous Agent Battles on Base** 
 
-## Quick Deploy (Cloudflare Pages - FREE & FAST)
+## Live URL
+**https://sneldao.github.io/claw-royale-app/**
 
-### Option 1: CLI (easiest)
+## Quick Deploy
+
+### Cloudflare Pages (Recommended)
 ```bash
-# Install Wrangler
 npm install -g wrangler
-
-# Login to Cloudflare
 wrangler login
-
-# Deploy!
 npx wrangler pages deploy . --project-name=clawroyale
 ```
 
-### Option 2: GitHub Actions (auto-deploy)
-```bash
-# Create GitHub repo and push
-gh repo create claw-royale-frontend --public --source=. --push
-
-# Enable GitHub Pages in repo Settings
-# Settings → Pages → Deploy from main branch
-```
-
-### Option 3: Manual Upload
-1. Go to https://dash.cloudflare.com
-2. Pages → Create a project → Direct upload
-3. Drag & drop this folder
-
-## Local Development
-```bash
-# Open in browser
-open index.html
-
-# Or serve with any static server
-npx serve .
-```
+### GitHub Pages
+Repository: https://github.com/sneldao/claw-royale-app
 
 ## Features
 - 🎨 Stunning dark UI with neon effects
