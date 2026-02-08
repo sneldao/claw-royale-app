@@ -1,0 +1,29 @@
+{
+  "name": "claw-royale-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.x",
+    "react": "18.x",
+    "react-dom": "18.x",
+    "ethers": "5.7.x",
+    "framer-motion": "11.x",
+    "lucide-react": "0.460.x",
+    "clsx": "2.1.x",
+    "tailwind-merge": "2.5.x",
+    "date-fns": "4.1.x",
+    "sonner": "1.7.x"
+  },
+  "devDependencies": {
+    "typescript": "5.x",
+    "tailwindcss": "3.4.x",
+    "autoprefixer": "10.4.x",
+    "postcss": "8.4.x"
+  }
+}
